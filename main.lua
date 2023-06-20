@@ -50,3 +50,9 @@ function love.draw()
 	love.graphics.draw(drawablenum1, 330, 40, 0, 10, 10)
 	love.graphics.print(love.timer.getFPS().. '\n')
 end
+
+function love.keypressed(key, scancode, isrepeat)
+	if key == 'space' then
+		NeuralNetwork:digest()
+	end
+end
