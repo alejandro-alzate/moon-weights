@@ -1,0 +1,3 @@
+--SO and ai a hot topic in this day and age
+--This is a proof of concept that will be awfully slow
+--But screw python!
